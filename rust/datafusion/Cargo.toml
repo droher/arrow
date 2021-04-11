@@ -48,7 +48,7 @@ simd = ["arrow/simd"]
 ahash = "0.6"
 hashbrown = "0.9"
 arrow = { version = "3.0.0", features = ["prettyprint"] }
-parquet = { version = "3.0.0", default_features=false, features=["arrow", "snap", "brotli", "base64"]}
+parquet = { version = "3.0.0", default_features=false, features=["arrow", "snap", "brotli"]}
 sqlparser = "0.7.0"
 clap = "2.33"
 rustyline = {version = "7.0", optional = true}
